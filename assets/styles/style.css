@@ -1,14 +1,23 @@
 body{
-    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+    background: #DE6262;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFB88C, #DE6262);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFB88C, #DE6262); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+
+
 
 }
 /*Título H1*/
 h1{
-    color:brown;
+    color:rgb(230, 221, 221);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     font-size:xx-large;
-    background-color: cornflowerblue;
+    background-color: #a9547e;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 /*Título h2*/
@@ -63,4 +72,31 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1cm;
     text-align: justify;
+}
+
+/*Formulario*/
+
+.bottonEnviar{
+    display: block;
+    margin: 0 auto;
+    color: black;
+    font-size: larger;
+    background-color: antiquewhite;
+    border: #8d6d24;
+    
+}
+
+label{
+    font-size: medium;
+    color:rgb(73, 17, 73);
+    font-weight: bold;
+}
+
+#cuidados{
+    width: 50%;
+}
+
+#formulario{
+    text-align: center;
+    text-decoration:underline;
 }

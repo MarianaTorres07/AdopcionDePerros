@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Adopción de Mascotas</title>
+    <!--CSS Style-->
+    <!--CSS StyleSheet-->
+    <link rel="stylesheet" href="./assets/styles/style.css">
+</head>
+<body>
+    <h1>Formulario de Adopción </h1>
+
+    <form>
+        <label>Fecha de Hoy:</label>
+        <input type="datetime-local" id="fecha">
+    </form>
+    <h2>Datos del adoptante:</h2>
+    <h3>Todos los adoptantes deben ser mayores de 18+</h3>
+
+    <form>
+        <label>Sr./a:</label>
+        <input type="text" placeholder="Nombre(s)">
+
+        <br>
+        <br>
+
+        <label>Apellido Materno:</label>
+        <input type="text" required>
+
+        <br>
+        <br>
+
+        <label>Apellido Paterno:</label>
+        <input type="text" required>
+
+        <br>
+        <br>
+
+        <label>Edad:</label>
+        <input type="number" min="18" required>
+
+        <br>
+        <br>
+
+        <label>Telefono.</label>
+        <input type="number" placeholder="999 177 29 89" required>
+        
+        <br>
+        <br>
+        
+        <label>Email:</label>
+        <input type="email" placeholder="hola@gmail.com" required>
+    
+
+    <!--Datos del adoptado-->
+    <h2>Datos del adoptado</h2>
+
+        
+            <label>Nombre:</label>
+        <input type="text">
+
+        <br>
+        <br>
+
+        <label>Especie:</label>
+        <input type="text">
+
+        <br>
+        <br>
+
+        <label>Raza:</label>
+        <br>
+        <label>Husky</label>
+        <input name="raza" type="radio">
+        <br>
+        <label>Salchicha</label>
+        <input name="raza" type="radio">
+        <br>
+        <label>Dalmata</label>
+        <input name="raza" type="radio">
+
+        <br>
+        <br>
+
+        <label>Tamaño:</label>
+        <br>
+        <label>Pequeño</label>
+        <input name="tamanio" type="radio">
+        <br>
+        <label>Mediano</label>
+        <input name="tamanio" type="radio">
+        <br>
+        <label>Grande</label>
+        <input name="tamanio" type="radio">
+
+        <br>
+        <br>
+
+        <label>Edad:</label>
+        <input type="number" maxlength="35">
+
+        <br>
+        <br>
+
+        <label>Fecha de Nacimiento:</label>
+        <input type="date">
+
+        <br>
+        <br>
+
+        <label>Vacunado:</label>
+        <br>
+        <label>Si</label>
+        <input name="vacunado" type="radio">
+        <br>
+        <label>No</label>
+        <input name="vacunado" type="radio">
+
+        <br>
+        <br>
+
+        <label>Esterilizado:</label>
+        <br>
+        <label>Si</label>
+        <input name="esterilzado" type="radio">
+        <br>
+        <label>No</label>
+        <input name="esterilzado" type="radio">
+
+        <br>
+        <br>
+        <label>Estado de salud de animal y cuidados especiales:</label>
+        <textarea name="cuidados" id="cuidados" cols="30" rows="10" maxlength="500" placeholder="Mencionar como se encuentra el estado de salud del animalito"></textarea>
+
+
+
+        <h3>El adoptante cuyos datos figuran en este documento acepta las siguientes cláusulas del presente contrato de adopción.</h3>
+
+        <button class="bottonEnviar">Enviar Informacion</button>
+
+        <a href="index.html" class="button-link">Página Principal</a>
+        
+      
+        </form>
+
+       
+
+        
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
