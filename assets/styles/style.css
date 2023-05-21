@@ -31,24 +31,29 @@ h4{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#para1{
+.container-Perros{
+    text-align: justify;
+    background-color: antiquewhite;
+    
+}
+
+.container-Adopcion{
+    background-color: azure;
+}
+
+
+.container-formulario{
+    background-color: #bb642f;
+}
+p{
     color: blue;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1cm;
 }
 
-#para2{
-    color: darkgreen;
-}
-
-#para3{
-    color:rgb(90, 70, 20)
-}
-
-#para4{
-    color:darkslateblue
-}
-
-#para5{
-    color:rgb(167, 23, 99);
+.form{
+    color: azure;
 }
 
 /*Nombre de Los perros*/
@@ -61,18 +66,15 @@ h4{
 
 /*Para todas las imagenes*/
 .image{
-    height: 350px;
-    width: 350px; 
+    max-width: 100%;
+    width: 250px;
+    height: 250px;
     border: rgb(48, 155, 155), solid;
     border-style: groove;
+
 }
 
-p{
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1cm;
-    text-align: justify;
-}
+
 
 /*Formulario*/
 
